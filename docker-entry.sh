@@ -1,7 +1,7 @@
 #!/bin/sh
-mkdir -p /var/www/public/uploads
-chmod -R 777 /var/www/public/uploads
-set -e
+#mkdir -p /var/www/public/uploads
+#chmod -R 777 /var/www/public/uploads
+#set -e
 
 ## Laravel configuration
 composer install --optimize-autoloader --no-dev
